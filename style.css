@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.calendar{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    
+    font-weight: bold;
+    border: 1px solid;
+    text-align: center;
+    justify-content: center;
+}
+.month{
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: black;
+    border-collapse: collapse;
+    
+}
+
+img{
+    height: 100px;
+    width: 100%;    
+}
+.pic{
+    height: 100px;
+    width: 100%;   
+}
+
+td{
+    height: 50px;
+    width: 140px;
+    font-size: larger;
+    border-color: black;
+    text-align: center;
+    table-layout: fixed;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgb(251, 188, 211);
+    color: rgb(0, 0, 0);
+}
+th{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+tr,th,td{
+    
+    border: 2px solid black;
+    
+}
+table{
+    border: 3px solid;
+}
+.white{
+    background-color: rgb(243, 94, 183);
+}
+.dude{
+    border: none;
+    background-color: white;
+}
